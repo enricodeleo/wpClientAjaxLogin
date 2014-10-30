@@ -20,5 +20,5 @@ Or manually add it to your composer.json:
 
 ### Legacy way
 
-Download this repo as a zip file and extract it to your wp-content/plugins directory.
+[[Download this repo as a zip file ]](https://github.com/enricodeleo/wpClientAjaxLogin/archive/0.1.0.zip)and extract it to your wp-content/plugins directory.
 
