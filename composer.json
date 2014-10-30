@@ -1,0 +1,26 @@
+{
+    "name": "enricodeleo/wpClientAjaxLogin",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "description": "A simple plugin that allows login to wordpress through the client's browser via AJAX.",
+    "homepage": "https://github.com/enricodeleo/wpClientAjaxLogin",
+    "authors": [
+        {
+            "name": "Enrico Deleo",
+            "homepage": "http://enricodeleo.com"
+        }
+    ],
+    "keywords": [
+        "wordpress",
+        "login",
+        "ajax",
+        "client"
+    ],
+    "support": {
+        "issues": "https://github.com/enricodeleo/wpClientAjaxLogin/issues"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "composer/installers": "~1.0"
+    }
+}
