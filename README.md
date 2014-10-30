@@ -12,7 +12,7 @@ If you're using Composer to manage your codebase add this plugin to your depende
 
 Or manually add it to your composer.json:
 
-```
+```JSON
 "require": {
   "enricodeleo/wp-client-ajax-login": "0.1.2"
 }
@@ -32,7 +32,7 @@ You can use vanilla Javascript, Angular, or any framework that suits your needs.
 
 _Here's an example with jQuery:_
 
-```
+```JavaScript
 $.ajax({
     type: "POST",
     url: "http://yoursite.dev/wp-admin/admin-ajax.php", //change this url acoording to your wp site
