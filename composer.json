@@ -1,5 +1,5 @@
 {
-    "name": "enricodeleo/wpClientAjaxLogin",
+    "name": "enricodeleo/wp-client-ajax-login",
     "type": "wordpress-plugin",
     "license": "MIT",
     "description": "A simple plugin that allows login to wordpress through the client's browser via AJAX.",
