@@ -20,11 +20,17 @@ Or manually add it to your composer.json:
 
 ### Legacy way
 
-[Download this repo as a zip file ](https://github.com/enricodeleo/wpClientAjaxLogin/archive/0.1.0.zip)and extract it to your wp-content/plugins directory.
+[Download this repo as a zip file ](https://github.com/enricodeleo/wpClientAjaxLogin/archive/0.1.0.zip) and extract it
+to your wp-content/plugins directory.
 
-# Example of ajax call
+# Usage
 
-You can use vanilla Javascript, Angular, or whatever framework suit your needs. Here's an example with jQuery:
+This plugin is an helper and doesn't add anything to your wordpress theme. You might want to use it in conjunction
+with your frontend custom code.
+
+You can use vanilla Javascript, Angular, or any framework that suits your needs. 
+
+_Here's an example with jQuery:_
 
 ```
 $.ajax({
