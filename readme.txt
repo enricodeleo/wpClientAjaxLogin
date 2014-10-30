@@ -1,4 +1,5 @@
 === WP Client Ajax Login ===
+Contributors: enricodeleo
 Tags: login,ajax,client
 Requires at least: 3.5
 Tested up to: 4.0
