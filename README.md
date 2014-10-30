@@ -8,7 +8,7 @@ A simple plugin that allows login to wordpress through the client's browser via 
 
 If you're using Composer to manage your codebase add this plugin to your dependencies running:
 
-`composer require roots/soil 0.1.0`
+`composer require enricodeleo/wpClientAjaxLogin 0.1.0`
 
 Or manually add it to your composer.json:
 
