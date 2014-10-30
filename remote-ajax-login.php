@@ -10,6 +10,8 @@ Author URI: http://enricodeleo.com
 License: MIT
 */
 
+defined('ABSPATH') or die("No script kiddies please!");
+
 function clientAjaxLogin() {
     $user        = $_POST[ 'user' ];
     $pwd         = $_POST[ 'pwd' ];
