@@ -8,13 +8,13 @@ A simple helper plugin that allows login to wordpress through the client's brows
 
 If you're using Composer to manage your codebase add this plugin to your dependencies running:
 
-`composer require enricodeleo/wp-client-ajax-login 0.1.2`
+`composer require enricodeleo/wp-client-ajax-login 0.1.3`
 
 Or manually add it to your composer.json:
 
 ```JSON
 "require": {
-  "enricodeleo/wp-client-ajax-login": "0.1.2"
+  "enricodeleo/wp-client-ajax-login": "0.1.3"
 }
 ```
 
