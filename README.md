@@ -35,7 +35,7 @@ _Here's an example with jQuery:_
 ```
 $.ajax({
     type: "POST",
-    url: "http://tastaly.dev/wp/wp-admin/admin-ajax.php",
+    url: "http://yoursite.dev/wp/wp-admin/admin-ajax.php",
     data: {
         user: "username", //hard-coded for example purposes
         pwd: "password", //hard-coded for example purposes
