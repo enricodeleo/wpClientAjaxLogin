@@ -8,19 +8,19 @@ A simple plugin that allows login to wordpress through the client's browser via 
 
 If you're using Composer to manage your codebase add this plugin to your dependencies running:
 
-`composer require enricodeleo/wp-client-ajax-login 0.1.0`
+`composer require enricodeleo/wp-client-ajax-login 0.1.1`
 
 Or manually add it to your composer.json:
 
 ```
 "require": {
-  "enricodeleo/wp-client-ajax-login": "0.1.0"
+  "enricodeleo/wp-client-ajax-login": "0.1.1"
 }
 ```
 
 ### Legacy way
 
-[Download this repo as a zip file ](https://github.com/enricodeleo/wpClientAjaxLogin/archive/0.1.0.zip) and extract it
+[Download this repo as a zip file ](https://github.com/enricodeleo/wpClientAjaxLogin/archive/0.1.1.zip) and extract it
 to your wp-content/plugins directory.
 
 # Usage
