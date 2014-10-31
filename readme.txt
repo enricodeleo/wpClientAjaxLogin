@@ -23,8 +23,8 @@ $.ajax({
     type: "POST",
     url: "http://yoursite.dev/wp-admin/admin-ajax.php", //change this url acoording to your wp site
     data: {
-        user: "username", //hard-coded for example purposes
-        pwd: "password", //hard-coded for example purposes
+        user: "username",
+        pwd: "password",
         action: "clientAjaxLogin"
     },
     success: function(resp) {
