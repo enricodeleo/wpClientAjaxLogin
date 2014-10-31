@@ -25,7 +25,7 @@ to your wp-content/plugins directory.
 
 OR
 
-Install this plugin via the official Wordpress Plugin resgistry [https://wordpress.org/plugins/wp-client-ajax-login/admin/](available here).
+Install this plugin via the official Wordpress Plugin resgistry [available here](https://wordpress.org/plugins/wp-client-ajax-login/admin/).
 
 # Usage
 
