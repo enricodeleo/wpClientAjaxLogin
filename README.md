@@ -23,6 +23,10 @@ Or manually add it to your composer.json:
 [Download this repo as a zip file ](https://github.com/enricodeleo/wpClientAjaxLogin/archive/0.1.4.zip) and extract it
 to your wp-content/plugins directory.
 
+OR
+
+Install this plugin via the official Wordpress Plugin resgistry [https://wordpress.org/plugins/wp-client-ajax-login/admin/](available here).
+
 # Usage
 
 This plugin is an helper and doesn't add anything to your wordpress theme. You might want to use it in conjunction
