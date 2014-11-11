@@ -4,7 +4,7 @@
 Plugin Name: WP Client Ajax Login
 Plugin URI: https://github.com/enricodeleo/wpClientAjaxLogin
 Description: A simple plugin that allows login to wordpress through the client's browser via AJAX.
-Version: 0.1.5
+Version: 0.1.6
 Author: Enrico Deleo
 Author URI: http://enricodeleo.com
 License: MIT

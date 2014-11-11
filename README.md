@@ -8,19 +8,19 @@ A simple helper plugin that allows login to wordpress through the client's brows
 
 If you're using Composer to manage your codebase add this plugin to your dependencies running:
 
-`composer require enricodeleo/wp-client-ajax-login 0.1.5`
+`composer require enricodeleo/wp-client-ajax-login 0.1.6`
 
 Or manually add it to your composer.json:
 
 ```JSON
 "require": {
-  "enricodeleo/wp-client-ajax-login": "0.1.5"
+  "enricodeleo/wp-client-ajax-login": "0.1.6"
 }
 ```
 
 ### Legacy way
 
-[Download this repo as a zip file ](https://github.com/enricodeleo/wpClientAjaxLogin/archive/0.1.5.zip) and extract it
+[Download this repo as a zip file ](https://github.com/enricodeleo/wpClientAjaxLogin/archive/0.1.6.zip) and extract it
 to your wp-content/plugins directory.
 
 OR
@@ -40,6 +40,9 @@ _Here's an example with jQuery:_
 $.ajax({
     type: "POST",
     url: "http://yoursite.dev/wp-admin/admin-ajax.php", //change this url acoording to your wp site
+    xhrFields: {
+        withCredentials: true
+    },
     data: {
         user: "username", //hard-coded for example purposes
         pwd: "password", //hard-coded for example purposes
@@ -57,3 +60,4 @@ $.ajax({
 ```
 
 Of course you can bind the ajax call to an event like submitting a form.
+

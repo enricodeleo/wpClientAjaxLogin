@@ -3,7 +3,7 @@ Contributors: enricodeleo
 Tags: login,ajax,client
 Requires at least: 3.5
 Tested up to: 4.0
-Stable tag: 0.1.5
+Stable tag: 0.1.6
 License: MIT
 License URI: https://github.com/enricodeleo/wpClientAjaxLogin/blob/master/LICENSE.md
 
@@ -22,9 +22,12 @@ Here's an example with jQuery:
 $.ajax({
     type: "POST",
     url: "http://yoursite.dev/wp-admin/admin-ajax.php", //change this url acoording to your wp site
+    xhrFields: {
+        withCredentials: true
+    },
     data: {
-        user: "username",
-        pwd: "password",
+        user: "username", //hard-coded for example purposes
+        pwd: "password", //hard-coded for example purposes
         action: "clientAjaxLogin"
     },
     success: function(resp) {
@@ -43,3 +46,4 @@ Of course you can bind the ajax call to an event like submitting a form.
 
 == Installation ==
 Download this plugin and extract it to your wp-content/plugins directory, activate it.
+
